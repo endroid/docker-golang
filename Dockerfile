@@ -1,4 +1,4 @@
-FROM golang:1.20.5-alpine
+FROM golang:1.21.4-alpine3.18
 
 # Install usermod and usermod node
 RUN echo http://dl-2.alpinelinux.org/alpine/edge/community/ >> /etc/apk/repositories
