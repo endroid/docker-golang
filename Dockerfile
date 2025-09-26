@@ -1,4 +1,4 @@
-FROM golang:1.23.4-alpine3.21
+FROM golang:1.25.1-alpine3.22
 
 # Install some global packages
 RUN apk add --no-cache bash git
